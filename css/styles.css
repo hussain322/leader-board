@@ -101,4 +101,62 @@
     color: #562EFF;
 }
 
+/* STYLE LATEST COURSES */
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    justify-content: space-between;
+}
+
+.course-banner img{
+    width: 224px;
+    height: 104px;
+}
+
+.course-ditail h3{
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.course-ditail p{
+    color: #ED6B4F;
+    font-size: 14px;
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+}
+
+.course-info span{
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.filled{
+    font-size: 11px;
+    color: #FFC014;
+}
+
+.empty{
+    color: #AEAEAE;
+    font-size: 11px;
+}
+
+.course-duration{
+    color: #FF4A60;
+    background-color: #edbec4;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.fa-clock{
+    color: #FF4A60;
+    font-size: 14px;
+}
+
 
